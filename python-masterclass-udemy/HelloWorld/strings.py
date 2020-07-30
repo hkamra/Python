@@ -26,5 +26,17 @@ print(type(age))
 
 age_in_words = "2 years"
 print(name + " is " + str(age) + " years old")
+
+#  below is an example of f-strings (can only be used in python version 3.4 or latest)
+
+
+print(name + f" is {age} years old")   # By putting f character before the string is used for formatted string
 print(type(age))
+
+print(f"Pi is approx  {22 / 7:12.50f}")
+pi = 22 / 7
+print(f"Pi is approx  {pi:12.50f}")
+
+meal1 = "eggs\tbread"
+print(meal1)
 
