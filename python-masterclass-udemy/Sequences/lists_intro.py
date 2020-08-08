@@ -5,13 +5,25 @@ computer_parts = ["computer",
                   "mouse mat"
                   ]
 
-for part in computer_parts:
-    print(part)
+print(computer_parts)
 
-print()
+# computer_parts[3] = "trackball"
+print(computer_parts[3:])
 
-print(computer_parts[2])
+# computer_parts[3:] = "trackball"  # this will add the item of the string in the list individually i.e. iterable
+# In order to fix above problem, put the above string in the list
+computer_parts[3:] = ["trackball"]
+print(computer_parts)
 
-print(computer_parts[0:3])  # slicing a list produces another list as shown in the output
-print(computer_parts[-1])
+
+
+# for part in computer_parts:
+#     print(part)
+#
+# print()
+#
+# print(computer_parts[2])
+#
+# print(computer_parts[0:3])  # slicing a list produces another list as shown in the output
+# print(computer_parts[-1])
 
