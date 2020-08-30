@@ -9,6 +9,7 @@ mainWindow = tkinter.Tk()
 
 mainWindow.title("Grid Demo")
 mainWindow.geometry('640x480-8-200')
+mainWindow['padx'] = 8    # this will add the space on the left in the window
 
 label = tkinter.Label(mainWindow, text="Tkinter Grid Demo")
 label.grid(row=0, column=0, columnspan=3)
@@ -16,11 +17,11 @@ label.grid(row=0, column=0, columnspan=3)
 
 # first parameter in the below calls is the number of column or row
 # second parameter is the width of that row and column
-mainWindow.columnconfigure(0, weight=1)
+mainWindow.columnconfigure(0, weight=100)
 mainWindow.columnconfigure(1, weight=1)
-mainWindow.columnconfigure(2, weight=3)
-mainWindow.columnconfigure(3, weight=3)
-mainWindow.columnconfigure(4, weight=3)
+mainWindow.columnconfigure(2, weight=1000)
+mainWindow.columnconfigure(3, weight=600)
+mainWindow.columnconfigure(4, weight=1000)
 mainWindow.rowconfigure(0, weight=1)
 mainWindow.rowconfigure(1, weight=10)
 mainWindow.rowconfigure(2, weight=1)
@@ -46,7 +47,7 @@ optionFrame = tkinter.LabelFrame(mainWindow, text="File Details")
 optionFrame.grid(row=1, column=2, sticky='ne')
 
 rbValue = tkinter.IntVar()
-rbValue.set(3)     # this is the default value of radio buttons selected when the program is executed
+rbValue.set(1)     # this is the default value of radio buttons selected when the program is executed
 # Radio buttons
 radio1 = tkinter.Radiobutton(optionFrame, text="Filename", value=1, variable=rbValue)
 radio2 = tkinter.Radiobutton(optionFrame, text="Path", value=2, variable=rbValue)
@@ -98,6 +99,13 @@ yearSpin = tkinter.Spinbox(dateFrame, width=5, from_=2000, to=2099)
 daySpin.grid(row=1, column=0)
 monthSpin.grid(row=1, column=1)
 yearSpin.grid(row=1, column=2)
+
+# Buttons
+okButton = tkinter.Button(mainWindow, text="OK")
+# cancelButton = tkinter.Button(mainWindow, text="Cancel", command=mainWindow.quit()) # this doesn't work
+cancelButton = tkinter.Button(mainWindow, text="Cancel", command=mainWindow.destroy)  # this will terminate the program
+okButton.grid(row=4, column=3, sticky='e')
+cancelButton.grid(row=4, column=4, sticky='w')
 
 mainWindow.mainloop()
 
