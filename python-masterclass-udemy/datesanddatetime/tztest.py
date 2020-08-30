@@ -22,7 +22,7 @@ country = 'Asia/Kolkata'
 #     print("{}: {}: {}:".format(x, pytz.country_names[x], pytz.country_timezones.get(x)))
 
 
-# below code is another way of printing the time zones except if the time zone does not exitst it will display
+# below code is another way of printing the time zones except if the time zone does not exist it will display
 # a message
 
 for x in sorted(pytz.country_names):
@@ -34,5 +34,5 @@ for x in sorted(pytz.country_names):
             print("\t\t{}: {}".format(zone, local_time))
         # print(pytz.country_timezones[x])      # this is the list of timezones in pytz
     else:
-        print("No time zone defined")
+        print("\t\tNo time zone defined")
 
