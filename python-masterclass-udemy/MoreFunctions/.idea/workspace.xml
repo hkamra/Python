@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03081753-463d-4408-9723-84dab443c27d" name="Default Changelist" comment="">
+    <list default="true" id="c239bec2-0ce6-4994-870b-27c3f4a46508" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/vcs.xml" afterDir="false" />
@@ -86,13 +86,13 @@
       <change afterPath="$PROJECT_DIR$/../Blackjack/cards/queen_heart.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Blackjack/cards/queen_spade.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Blackjack/cards/red_joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/MoreFunctions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/morefunc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MoreFunctions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/morefunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../functions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tkinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tkinter/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +113,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1gpwsXoDq7VjTG3y1mGXERrfnRU" />
+  <component name="ProjectId" id="1gt18g0LbITH6Pm2M3HHr8FsLH1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -122,7 +122,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -132,8 +131,8 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunManager">
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="functions" />
+    <configuration name="morefunc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MoreFunctions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -144,7 +143,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/morefunc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.functions" />
+        <item itemvalue="Python.morefunc" />
       </list>
     </recent_temporary>
   </component>
@@ -164,11 +163,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03081753-463d-4408-9723-84dab443c27d" name="Default Changelist" comment="" />
-      <created>1598825048788</created>
+      <changelist id="c239bec2-0ce6-4994-870b-27c3f4a46508" name="Default Changelist" comment="" />
+      <created>1598918916832</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598825048788</updated>
+      <updated>1598918916832</updated>
     </task>
     <servers />
   </component>
@@ -183,33 +182,26 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="448" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598827601634">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598923573782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="448" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598827601634" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1598828583970">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598923573782" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598923573782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598828583970" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1598828583969">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598923573782" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598923573782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598828583969" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1598828583968">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598923573782" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598923573782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598828583968" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1598828583970">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598923573782" />
+    <state x="65" y="25" key="new project wizard" timestamp="1598923841512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598828583970" />
-    <state x="65" y="25" key="new project wizard" timestamp="1598918916528">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="65" y="25" key="new project wizard/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598918916528" />
+    <state x="65" y="25" key="new project wizard/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598923841512" />
   </component>
 </project>
