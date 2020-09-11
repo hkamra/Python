@@ -40,12 +40,69 @@ def deal_card(frame):
     return next_card
 
 
+def score_hand(hand):
+    # calculate the total score of all cards in the list
+    # Only one ace can have the value 11, and this will be reduce to 1 if the hand would bust.
+    score = 0
+    ace = False
+    for next_card in hand:
+        card_value = next_card[0]
+        if card_value == 1 and not ace:
+            ace = True
+            card_value = 11
+        score += card_value
+        # if we would bust, check if there is an ace and subtract 10
+        if score > 21 and ace:
+            score -= 10
+            ace = False
+    return score
+
+
 def deal_dealer():
-    deal_card(dealer_card_frame)
+    dealer_score = score_hand(dealer_hand)
+    while 0 < dealer_score < 17:
+        dealer_hand.append(deal_card(dealer_card_frame))
+        dealer_score = score_hand(dealer_hand)
+        dealer_score_label.set(dealer_score)
+
+    player_score = score_hand(player_hand)
+    if player_score > 21:
+        result_text.set("Dealer wins!")
+    elif dealer_score > 21 or dealer_score < player_score:
+        result_text.set("Player wins!")
+    elif dealer_score > player_score:
+        result_text.set("Dealer wins!")
+    else:
+        result_text.set("Draw!")
 
 
 def deal_player():
-    deal_card(player_card_frame)
+    player_hand.append(deal_card(player_card_frame))
+    player_score = score_hand(player_hand)
+
+    player_score_label.set(player_score)
+    if player_score > 21:
+        result_text.set("Dealer wins!")
+
+    # # whenever we use a variable in function having the same name as global
+    # # python creates a local variable with the same name and use it for further reference as declared below
+    # # python will only use global variable if we don't modify it in the function
+    # # player_score = 0
+    # global player_score  # this will avoid the shadowing error
+    # global player_ace
+    # card_value = deal_card(player_card_frame)[0]
+    # if card_value == 1 and not player_ace:
+    #     player_ace = True
+    #     card_value = 11
+    # player_score += card_value
+    # # if we would bust, check if there is an ace and subtract
+    # if player_score > 21 and player_ace:
+    #     player_ace = False
+    #     player_score -= 10
+    # player_score_label.set(player_score)
+    # if player_score > 21:
+    #     result_text.set("Dealer wins!")
+    # print(locals())
 
 
 mainWindow = tkinter.Tk()
@@ -70,6 +127,11 @@ dealer_card_frame = tkinter.Frame(card_frame, background="green")
 dealer_card_frame.grid(row=0, column=1, sticky="ew", rowspan=2)
 
 player_score_label = tkinter.IntVar()
+# below declarations are only required if we are using the lower definition of function
+# deal_player
+# player_score = 0
+# player_ace = False
+
 tkinter.Label(card_frame, text="Player", background="green", fg="white").grid(row=2, column=0)
 tkinter.Label(card_frame, textvariable=player_score_label, background="green", fg="white").grid(row=3, column=0)
 # embedded frame to hold the card images
@@ -99,5 +161,10 @@ random.shuffle(deck)
 # Create the list to store the dealer's and player's hands
 dealer_hand = []
 player_hand = []
+
+deal_player()
+dealer_hand.append(deal_card(dealer_card_frame))
+dealer_score_label.set(score_hand(dealer_hand))
+deal_player()
 
 mainWindow.mainloop()

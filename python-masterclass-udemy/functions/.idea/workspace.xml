@@ -20,78 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03081753-463d-4408-9723-84dab443c27d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/Blackjack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/blackjack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/10_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/10_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/10_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/10_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/1_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/1_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/1_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/1_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/2_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/2_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/2_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/2_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/3_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/3_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/3_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/3_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/4_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/4_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/4_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/4_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/5_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/5_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/5_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/5_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/6_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/6_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/6_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/6_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/7_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/7_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/7_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/7_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/8_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/8_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/8_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/8_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/9_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/9_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/9_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/9_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/Changelog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/NEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/black_joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/jack_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/jack_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/jack_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/jack_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/king_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/king_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/king_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/king_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/queen_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/queen_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/queen_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/queen_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blackjack/cards/red_joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/MoreFunctions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/morefunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blackjack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Blackjack/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blackjack/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Blackjack/blackjack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tkinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tkinter/.idea/workspace.xml" afterDir="false" />
     </list>

@@ -20,78 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4d5d03-4708-4444-b9e8-fda765c93f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blackjack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blackjack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/10_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/10_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/10_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/10_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/1_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/1_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/1_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/1_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/2_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/2_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/2_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/2_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/3_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/3_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/3_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/3_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/4_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/4_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/4_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/4_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/5_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/5_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/5_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/5_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/6_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/6_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/6_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/6_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/7_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/7_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/7_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/7_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/8_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/8_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/8_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/8_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/9_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/9_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/9_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/9_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/Changelog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/NEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/black_joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/jack_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/jack_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/jack_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/jack_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/king_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/king_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/king_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/king_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/queen_club.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/queen_diamond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/queen_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/queen_spade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cards/red_joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/MoreFunctions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MoreFunctions/morefunc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MoreFunctions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../functions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tkinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tkinter/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -187,21 +118,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="65" key="GridCell.Tab.0.bottom" timestamp="1598926573227">
+    <state width="1323" height="80" key="GridCell.Tab.0.bottom" timestamp="1599790420600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="65" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598926573227" />
-    <state width="1323" height="65" key="GridCell.Tab.0.center" timestamp="1598926573227">
+    <state width="1323" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1599790420600" />
+    <state width="1323" height="80" key="GridCell.Tab.0.center" timestamp="1599790420600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="65" key="GridCell.Tab.0.center/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598926573227" />
-    <state width="1323" height="65" key="GridCell.Tab.0.left" timestamp="1598926573227">
+    <state width="1323" height="80" key="GridCell.Tab.0.center/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1599790420600" />
+    <state width="1323" height="80" key="GridCell.Tab.0.left" timestamp="1599790420600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="65" key="GridCell.Tab.0.left/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598926573227" />
-    <state width="1323" height="65" key="GridCell.Tab.0.right" timestamp="1598926573227">
+    <state width="1323" height="80" key="GridCell.Tab.0.left/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1599790420600" />
+    <state width="1323" height="80" key="GridCell.Tab.0.right" timestamp="1599790420600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="65" key="GridCell.Tab.0.right/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1598926573227" />
+    <state width="1323" height="80" key="GridCell.Tab.0.right/0.0.1366.728/1366.-126.1920.1040@0.0.1366.728" timestamp="1599790420600" />
   </component>
 </project>
