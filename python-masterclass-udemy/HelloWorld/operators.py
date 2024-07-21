@@ -35,6 +35,3 @@ print(e * 12)
 print()
 
 print(a / (b * a) / b)
-
-
-
